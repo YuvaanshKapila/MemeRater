@@ -113,6 +113,7 @@
   .btn-secondary {
     background: hsl(var(--accent));
     color: hsl(var(--primary-text));
+    
   }
 
   .badge {

@@ -64,8 +64,7 @@ export const MemeJudgeApp: React.FC = () => {
               <Sparkles className="w-6 h-6 text-primary-foreground" />
             </div>
             <div className="text-center">
-                <h1 className="text-3xl font-bold text-primary">Meme Judge AI</h1>
-              <p className="text-muted-foreground">Get instant AI-powered meme ratings</p>
+                <h1 className="text-3xl font-bold text-primary">Meme Judge</h1>
             </div>
           </div>
         </div>
@@ -75,7 +74,7 @@ export const MemeJudgeApp: React.FC = () => {
         <div className="text-center mb-12 space-y-4">
           <h2 className="text-4xl font-bold">Rate Your Meme</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Upload or paste your meme and get an instant AI rating from 1–10
+            Upload or paste your meme and get an instant rating from 1–10
           </p>
         </div>
 

@@ -1,6 +1,6 @@
 # MemeRater
 
-**MemeRater** is a client-side AI-powered meme judging application built using modern JavaScript tools. It analyzes memes using Optical Character Recognition (OCR) and machine learning to extract text and predict a meme rating — all directly in the browser with no backend.
+**MemeRater** is a client-side AI-powered meme judging application built using modern JavaScript tools. It analyzes memes using Optical Character Recognition (OCR) and machine learning to extract text and predict a meme rating all directly in the browser with no backend.
 
 This project demonstrates how TensorFlow.js and Tesseract.js can be used together to build a lightweight, intelligent meme evaluator. The user interface is styled using Tailwind CSS and bundled with Vite for ultra-fast development.
 
@@ -22,7 +22,7 @@ This project demonstrates how TensorFlow.js and Tesseract.js can be used togethe
 
 ## Project Purpose
 
-MemeRater was created to experiment with the application of AI to humor analysis. Traditional meme scoring relies on user voting or manual rules, but this project aims to build a data-driven meme evaluator by extracting both visual and textual features from memes.
+MemeRater was created to experiment with the application of AI to humour analysis. Traditional meme scoring relies on user voting or manual rules, but this project aims to build a data-driven meme evaluator by extracting both visual and textual features from memes.
 
 By combining OCR and deep learning inference directly in the browser, MemeRater allows users to get an automatic "meme rating" score for any uploaded meme image. It serves as a proof of concept for intelligent meme analytics.
 
@@ -34,7 +34,7 @@ By combining OCR and deep learning inference directly in the browser, MemeRater 
 - OCR-powered text extraction using Tesseract.js
 - Deep learning model prediction using TensorFlow.js
 - Real-time display of meme rating
-- Completely client-side — no server or cloud functions required
+- Completely client-side  no server or cloud functions required
 - Fast development with Vite and hot module reload
 - Fully responsive UI with Tailwind CSS
 
@@ -96,7 +96,7 @@ The extracted text and image features are passed to a TensorFlow.js model.
 
 The model predicts a rating score, which is shown on-screen.
 
-The current model can be swapped or retrained based on your preferred dataset and humor scoring logic.
+The current model can be swapped or retrained based on your preferred dataset and humour scoring logic.
 
 Project Structure
 text

@@ -12,10 +12,6 @@ Installation
 
 How to Run
 
-Usage Guide
-
-Project Structure
-
 Future Plans
 
 License

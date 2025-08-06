@@ -1,56 +1,57 @@
 # MemeRater
-
-**MemeRater** is a client-side AI-powered meme judging application built using modern JavaScript tools. It analyzes memes using Optical Character Recognition (OCR) and machine learning to extract text and predict a meme rating all directly in the browser with no backend.
-
-This project demonstrates how TensorFlow.js and Tesseract.js can be used together to build a lightweight, intelligent meme evaluator. The user interface is styled using Tailwind CSS and bundled with Vite for ultra-fast development.
-
----
+MemeRater is a meme rating application built with JavaScript, TypeScript, and HTML. It uses Tesseract.js for OCR and TensorFlow.js for machine learning to predict meme ratings directly in the browser. No server or backend is required.
 
 ## Table of Contents
+Project Purpose
 
-- [Project Purpose](#project-purpose)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [How to Run](#how-to-run)
-- [Usage Guide](#usage-guide)
-- [Project Structure](#project-structure)
-- [Future Plans](#future-plans)
-- [License](#license)
+Features
 
----
+Technologies Used
+
+Installation
+
+How to Run
+
+Usage Guide
+
+Project Structure
+
+Future Plans
+
+License
 
 ## Project Purpose
-
-MemeRater was created to experiment with the application of AI to humour analysis. Traditional meme scoring relies on user voting or manual rules, but this project aims to build a data-driven meme evaluator by extracting both visual and textual features from memes.
-
-By combining OCR and deep learning inference directly in the browser, MemeRater allows users to get an automatic "meme rating" score for any uploaded meme image. It serves as a proof of concept for intelligent meme analytics.
-
----
+This project analyzes memes using AI by extracting both visual and textual content. Instead of relying on user votes or hardcoded rules, MemeRater uses OCR and machine learning to automatically rate memes directly in the browser.
 
 ## Features
+Upload PNG or JPG meme images
 
-- Upload static image memes (PNG, JPG)
-- OCR-powered text extraction using Tesseract.js
-- Deep learning model prediction using TensorFlow.js
-- Real-time display of meme rating
-- Completely client-side  no server or cloud functions required
-- Fast development with Vite and hot module reload
-- Fully responsive UI with Tailwind CSS
+Text extraction using Tesseract.js (OCR)
 
----
+Meme rating prediction using TensorFlow.js
+
+Real-time score display
+
+Entirely client-side (no backend)
+
+Fast development with Vite and hot reload
+
+Responsive UI with Tailwind CSS
 
 ## Technologies Used
+Vite
 
-- **Vite** - Frontend bundler and dev server
-- **TypeScript** - Type-safe JavaScript for maintainability
-- **Tailwind CSS** - Utility-first CSS framework
-- **Tesseract.js** - OCR engine for text extraction
-- **TensorFlow.js** - In-browser ML inference engine
-- **PostCSS** - CSS transformation pipeline
-- **Node.js** - JavaScript runtime for development
+TypeScript
 
----
+Tailwind CSS
+
+Tesseract.js
+
+TensorFlow.js
+
+PostCSS
+
+Node.js
 
 ## Installation
 
@@ -115,34 +116,9 @@ MemeRater/
     ├── components/            # UI components
     ├── use-toast.ts           # Toast hook logic
     └── ...                    # App logic and ML pipeline
-Future Plans
+```
+## Future Plans
 Add support for animated GIF memes
 
-Integrate improved text preprocessing for OCR output
-
-Expand the machine learning model for better accuracy
-
-Introduce leaderboard features for top memes
-
-Add meme classification (e.g. political, wholesome, ironic)
-
-Deploy the app to Vercel or Netlify for public access
-
 License
-This project is licensed under the MIT License. You are free to use, modify, and distribute it under the terms of that license.
-
-yaml
-Copy
-Edit
-
----
-
-You can copy and paste this entire block into your `README.md` on GitHub.
-
-Let me know if you want to:
-- Add a badge section (e.g., build passing, license, Node version)
-- Embed a screenshot or preview GIF
-- Add deployment instructions for Vercel or Netlify
-- Add contribution guidelines
-
-I can include those as well.
+This project is licensed under the MIT License.
